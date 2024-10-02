@@ -1,19 +1,20 @@
 {
   "name": "h6280md",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "h6280md": "./index.js"
+    "h6280md": "./index.js",
+    "huc6280csv": "./huc6280csv.js"
   },
   "keywords": [],
   "author": "BouKiCHi",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
+    "cheerio": "^1.0.0",
     "request": "^2.88.2"
   }
 }

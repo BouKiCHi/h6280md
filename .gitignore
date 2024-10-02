@@ -2,3 +2,5 @@ node_modules
 html
 output.md
 .vscode
+output.csv
+huc6280_opmap.html

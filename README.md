@@ -1,13 +1,36 @@
 # h6280md
 
-minachunさんのHuC6280命令一覧ページをMarkdown形式に変換します。
+h6280mdは、minachunさんのHuC6280命令一覧ページをMarkdown形式に変換します。
 https://www.2a03.jp/~minachun/pce/huc6280_opmap.html
 
-## 使用方法
+また、huc6280csvは一覧ページのoptableの内容をCSVへと変換します。
 
-```powershell
+## インストール(更新)方法
+```
+npm install -g BouKiCHi/h6280md
+```
+
+## アンインストール方法
+``
+npm uninstall -g h6280md
+``
+
+## 使用例
+
+### 事前準備
+
+```
 curl.exe -O https://www.2a03.jp/~minachun/pce/huc6280_opmap.html
-node ./index.js ./huc6280_opmap.html
+```
+
+### 実行例
+
+```
+h6280md ./huc6280_opmap.html
+```
+
+```
+huc6280csv ./huc6280_opmap.html
 ```
 
 ## 注意
